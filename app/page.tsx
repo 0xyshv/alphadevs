@@ -1,9 +1,15 @@
-import { PalettePreview } from "@/components/palette-preview";
+import SampleCard from "@/components/SampleCard";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-background">
-      <PalettePreview />
+    <main className="min-h-screen bg-background flex flex-col items-center justify-center gap-8">
+      <h1 className="font-figtree font-bold text-4xl text-primary">
+        AlphaDevs Labs
+      </h1>
+      <p className="font-figtree font-normal text-lg text-muted-foreground">
+        We ship digital products at startup speed.
+      </p>
+      <SampleCard />
     </main>
   );
 }

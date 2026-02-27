@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export default function SampleCard() {
   return (
-    <div className="bg-card border border-border rounded-lg p-6 w-80 flex flex-col gap-4">
+    <div className="bg-card/40 backdrop-blur-md border border-border/50 rounded-lg p-6 w-80 flex flex-col gap-4">
       <div className="flex items-center justify-between">
         <span className="font-figtree font-semibold text-xs uppercase tracking-widest text-muted-foreground">
           Featured

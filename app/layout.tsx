@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const figtree = localFont({
   src: [
@@ -34,8 +36,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={`${figtree.variable} antialiased`}>
+      <body className={`${figtree.variable} antialiased bg-black`}>
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

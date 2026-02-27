@@ -1,5 +1,5 @@
 export const FOOTER_TAGLINE =
-  "We ship digital products at startup speed — from idea to launch.";
+  "We ship digital products at startup speed, from idea to launch.";
 
 export const LINKS = [
   { label: "About", href: "/about" },

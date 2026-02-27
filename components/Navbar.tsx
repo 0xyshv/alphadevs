@@ -18,10 +18,10 @@ import { workItems } from "@/constants/navbar";
 export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50  backdrop-blur-md">
-      <div className="max-w-6xl mx-auto px-2 h-16 my-3 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-2 h-16 my-6 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center">
-          <Image src="/alphadevs_logo.svg" alt="AlphaDevs Labs" width={150} height={100} priority />
+          <Image src="/alphadevs_logo.svg" alt="AlphaDevs Labs" width={160} height={100} priority />
         </Link>
 
         {/* Nav links */}
@@ -31,7 +31,7 @@ export default function Navbar() {
               <NavigationMenuLink asChild className="hover:bg-transparent focus:bg-transparent">
                 <Link
                   href="/about"
-                  className="font-figtree px-4 py-2 text-sm font-medium text-white/70 hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all"
+                  className="font-figtree px-4 py-2 text-lg font-medium text-white/70 hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all"
                 >
                   About
                 </Link>
@@ -39,7 +39,7 @@ export default function Navbar() {
             </NavigationMenuItem>
 
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="font-figtree bg-transparent text-white/70 hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] hover:bg-transparent focus:bg-transparent data-active:bg-transparent data-[state=open]:bg-transparent data-[state=open]:hover:bg-transparent data-[state=open]:focus:bg-transparent px-4 py-2 text-sm font-medium transition-all">
+              <NavigationMenuTrigger className="font-figtree bg-transparent text-white/70 hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] hover:bg-transparent focus:bg-transparent data-active:bg-transparent data-[state=open]:bg-transparent data-[state=open]:hover:bg-transparent data-[state=open]:focus:bg-transparent px-4 py-2 text-lg font-medium transition-all">
                 Work
               </NavigationMenuTrigger>
               <NavigationMenuContent>
@@ -64,7 +64,7 @@ export default function Navbar() {
               <NavigationMenuLink asChild className="hover:bg-transparent focus:bg-transparent">
                 <Link
                   href="/company"
-                  className="font-figtree px-4 py-2 text-sm font-medium text-white/70 hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all"
+                  className="font-figtree px-4 py-2 text-lg font-medium text-white/70 hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all"
                 >
                   Company
                 </Link>
@@ -74,9 +74,9 @@ export default function Navbar() {
         </NavigationMenu>
 
         {/* CTA */}
-        <Button asChild size="sm" className="font-figtree font-semibold gap-2 bg-transparent text-white border border-primary transition-all duration-300 hover:bg-primary/25 hover:backdrop-blur-sm hover:shadow-[0_0_12px_2px_hsl(var(--primary)/0.25)]">
+        <Button asChild size="lg" className="font-figtree font-semibold gap-2 bg-transparent text-white font-lg border border-primary transition-all duration-300 hover:bg-primary/25 hover:backdrop-blur-sm hover:shadow-[0_0_12px_2px_hsl(var(--primary)/0.25)]">
           <a href="https://t.me/AlphaDevsOfficial" target="_blank" rel="noopener noreferrer">
-            <Image src="/assets/tg.svg" alt="Telegram" width={16} height={16} className="rounded-md" />
+            <Image src="/assets/tg.svg" alt="Telegram" width={20} height={20} className="rounded-md" />
             Talk to Us
           </a>
         </Button>

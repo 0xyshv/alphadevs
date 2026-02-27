@@ -50,8 +50,8 @@
 :root {
   --radius: 0.5rem;
 
-  /* Main Background – Dark Navy #070F2B */
-  --background: 227 72% 10%;
+  /* Main Background – Black */
+  --background: 0 0% 0%;
   --foreground: 220 20% 92%;
 
   /* Cards / Surfaces – Deep Indigo #1B1A55 */
@@ -99,6 +99,16 @@
   --sidebar-accent-foreground: 220 20% 92%;
   --sidebar-border: 231 27% 35%;
   --sidebar-ring: 242 30% 67%;
+}
+
+/* ── Page-specific gradients ──────────────────────────────────────────── */
+:root {
+  --gradient-about-glow: radial-gradient(
+    ellipse at top right,
+    var(--color-primary) 0%,
+    var(--color-secondary) 30%,
+    transparent 70%
+  );
 }
 
 @layer base {

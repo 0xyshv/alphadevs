@@ -6,6 +6,7 @@
 - **Styling**: Tailwind CSS v4
 - **Components**: shadcn/ui
 - **Language**: TypeScript
+- **Package Manager**: pnpm (always use `pnpm` — never `npm` or `npx`)
 
 ## Color Palette
 

@@ -2,7 +2,8 @@ import { Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
 import FinalCta from "@/components/FinalCta";
-import { stats, partners, plans } from "@/constants/home";
+import Partners from "@/components/Partners";
+import { stats, plans } from "@/constants/home";
 
 export default function Home() {
   return (
@@ -53,27 +54,7 @@ export default function Home() {
       </section>
 
       {/* ── Partner logos ─────────────────────────────────────────────────── */}
-      <section className="py-20 px-6 border-t border-white/10">
-        <div className="max-w-5xl mx-auto flex flex-col items-center gap-10">
-          {/* Section label — semibold, small caps */}
-          <p className="font-figtree font-semibold text-xs uppercase tracking-widest text-white/30">
-            Teams &amp; projects we&apos;ve worked with
-          </p>
-          <div className="grid grid-cols-4 md:grid-cols-8 gap-6 w-full">
-            {partners.map((name) => (
-              <div
-                key={name}
-                className="h-10 rounded-md bg-white/5 border border-white/10 flex items-center justify-center px-2"
-              >
-                {/* Placeholder name — medium */}
-                <span className="font-figtree font-medium text-[10px] text-white/30 text-center leading-tight">
-                  {name}
-                </span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <Partners />
 
       {/* ── Pricing ───────────────────────────────────────────────────────── */}
       <section className="py-24 px-6 border-t border-white/10">

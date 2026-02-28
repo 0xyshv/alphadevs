@@ -55,6 +55,10 @@ export default function Footer() {
                 <Image src="/assets/tg.svg" alt="Telegram" width={20} height={20} className="rounded-md" />
               </a>
             </div>
+            <div>
+              <p className="font-figtree font-semibold text-xs uppercase tracking-widest text-primary mb-2">Address</p>
+              <p className="font-figtree font-normal text-sm text-white/50">Dubai, UAE</p>
+            </div>
           </div>
         </div>
 

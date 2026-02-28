@@ -18,7 +18,7 @@ import { workItems } from "@/constants/navbar";
 export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50  backdrop-blur-md">
-      <div className="max-w-6xl mx-auto px-2 h-16 my-6 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-2 h-16 mt-6 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image src="/alphadevs_logo.svg" alt="AlphaDevs Labs" width={160} height={100} priority />
@@ -31,7 +31,7 @@ export default function Navbar() {
               <NavigationMenuLink asChild className="hover:bg-transparent focus:bg-transparent">
                 <Link
                   href="/about"
-                  className="font-figtree px-4 py-2 text-lg font-medium text-white/70 hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all"
+                  className="font-figtree px-4 text-lg font-medium text-white/70 hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all"
                 >
                   About
                 </Link>
@@ -49,7 +49,7 @@ export default function Navbar() {
                       <NavigationMenuLink asChild>
                         <Link
                           href={item.href}
-                          className="font-figtree font-normal block px-3 py-2 text-sm text-foreground/80 hover:text-foreground border border-transparent hover:border-secondary hover:bg-transparent rounded-md transition-all"
+                          className="font-figtree font-normal block px-3 text-sm text-foreground/80 hover:text-foreground border border-transparent hover:border-secondary hover:bg-transparent rounded-md transition-all"
                         >
                           {item.label}
                         </Link>
@@ -64,7 +64,7 @@ export default function Navbar() {
               <NavigationMenuLink asChild className="hover:bg-transparent focus:bg-transparent">
                 <Link
                   href="/company"
-                  className="font-figtree px-4 py-2 text-lg font-medium text-white/70 hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all"
+                  className="font-figtree px-4  text-lg font-medium text-white/70 hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all"
                 >
                   Company
                 </Link>

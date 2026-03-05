@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Partners() {
   return (
-    <section className="relative py-48 px-6 border-t border-white/10 overflow-hidden">
+    <section className="relative py-20 px-6 border-t border-white/10 overflow-hidden">
       {/* Glossy background layers */}
       <div className="absolute inset-0 bg-linear-to-br from-white/6 via-zinc-300/4 to-white/2" />
       <div className="absolute inset-0 bg-linear-to-tr from-transparent via-white/3 to-zinc-200/5" />

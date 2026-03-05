@@ -33,7 +33,7 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <div>
               <p className="font-figtree font-semibold text-xs uppercase tracking-widest text-primary mb-2">Contact</p>
-              <p className="font-figtree font-normal text-sm text-white/50">0xalphadevs@gmail.com</p>
+              <p className="font-figtree font-normal text-sm text-white/50">contact@0xalphadevs.dev</p>
             </div>
             <div className="flex items-center gap-3">
               <a

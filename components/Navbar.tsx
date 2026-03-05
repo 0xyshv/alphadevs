@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
 import { Send } from "lucide-react";
 import {
   NavigationMenu,
@@ -16,12 +17,35 @@ import { workItems } from "@/constants/navbar";
 
 
 export default function Navbar() {
+  const [logoHovered, setLogoHovered] = useState(false);
+
   return (
-    <header className="fixed top-0 left-0 right-0 z-50  backdrop-blur-md">
-      <div className="max-w-6xl mx-auto px-2 h-16 mt-6 flex items-center justify-between">
+    <header className="fixed top-0 left-0 right-0 z-50">
+      {/* Blur background layer — masked to fade downward */}
+      <div
+        className="absolute inset-0 backdrop-blur-md"
+        style={{
+          background: "linear-gradient(to bottom, rgba(7,15,43,0.6) 0%, transparent 100%)",
+          WebkitMaskImage: "linear-gradient(to bottom, black 60%, transparent 100%)",
+          maskImage: "linear-gradient(to bottom, black 60%, transparent 100%)",
+        }}
+      />
+      <div className="relative max-w-6xl mx-auto px-2 h-16 mt-6 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center">
-          <Image src="/alphadevs_logo.svg" alt="AlphaDevs Labs" width={160} height={100} priority />
+        <Link
+          href="/"
+          className="flex items-center"
+          onMouseEnter={() => setLogoHovered(true)}
+          onMouseLeave={() => setLogoHovered(false)}
+        >
+          <Image
+            src={logoHovered ? "/alphadevs_logo.gif" : "/alphadevs_logo.svg"}
+            alt="AlphaDevs Labs"
+            width={160}
+            height={100}
+            priority
+            unoptimized={logoHovered}
+          />
         </Link>
 
         {/* Nav links */}

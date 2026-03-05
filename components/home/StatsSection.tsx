@@ -1,6 +1,6 @@
 "use client";
 
-import CountUp from "@/components/CountUp";
+import CountUp from "@/components/ui/CountUp";
 import { stats } from "@/constants/home";
 
 export default function StatsSection() {

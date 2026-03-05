@@ -2,9 +2,9 @@ import { Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
 import FinalCta from "@/components/common/FinalCta";
-import Partners from "@/components/Partners";
+import Partners from "@/components/home/Partners";
 import { plans } from "@/constants/home";
-import StatsSection from "@/components/StatsSection";
+import StatsSection from "@/components/home/StatsSection";
 
 export default function Home() {
   return (

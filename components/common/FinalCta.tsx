@@ -1,5 +1,5 @@
 
-import { Button } from './ui/button'
+import { Button } from '@/components/ui/button';
 import { Calendar } from 'lucide-react'
 
 const FinalCta = () => {

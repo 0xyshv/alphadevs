@@ -1,7 +1,7 @@
 export const stats = [
-  { value: "$5M+", label: "Capital raised" },
-  { value: "20+", label: "Products delivered" },
-  { value: "$5K", label: "Build your MVP" },
+  { value: "$5M+", label: "Capital raised", countTo: 5, prefix: "$", suffix: "M+" },
+  { value: "20+", label: "Products delivered", countTo: 20, prefix: "", suffix: "+" },
+  { value: "$5K", label: "Build your MVP", countTo: 5, prefix: "$", suffix: "K" },
 ];
 
 export const partners: { name: string; logo?: string; description: string }[] =

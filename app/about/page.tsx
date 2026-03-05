@@ -1,5 +1,5 @@
 import Image from "next/image";
-import FinalCta from "@/components/FinalCta";
+import FinalCta from "@/components/common/FinalCta";
 
 export default function About() {
   return (

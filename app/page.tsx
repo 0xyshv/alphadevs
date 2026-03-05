@@ -1,9 +1,10 @@
 import { Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
-import FinalCta from "@/components/FinalCta";
+import FinalCta from "@/components/common/FinalCta";
 import Partners from "@/components/Partners";
-import { stats, plans } from "@/constants/home";
+import { plans } from "@/constants/home";
+import StatsSection from "@/components/StatsSection";
 
 export default function Home() {
   return (
@@ -24,18 +25,7 @@ export default function Home() {
           </h1>
 
           {/* Stats */}
-          <div className="flex flex-wrap items-center justify-center gap-8 md:gap-16 w-full py-4">
-            {stats.map((s) => (
-              <div key={s.label} className="flex flex-col items-center gap-1">
-                {/* Stat value — extrabold */}
-                <span className="font-figtree font-extrabold text-3xl md:text-4xl text-white">
-                  {s.value}
-                </span>
-                {/* Stat label — light */}
-                <span className="font-figtree font-light text-sm text-white/40">{s.label}</span>
-              </div>
-            ))}
-          </div>
+          <StatsSection />
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row items-center gap-3">

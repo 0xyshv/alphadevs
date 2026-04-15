@@ -90,7 +90,7 @@ export default function Navbar() {
                   href="/company"
                   className="font-figtree px-4  text-lg font-medium text-white/70 hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all"
                 >
-                  Company
+                  Why Us
                 </Link>
               </NavigationMenuLink>
             </NavigationMenuItem>

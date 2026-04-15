@@ -17,7 +17,7 @@ import { workItems } from "@/constants/navbar";
 
 
 export default function Navbar() {
-  const [logoHovered, setLogoHovered] = useState(false);
+
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
@@ -35,16 +35,13 @@ export default function Navbar() {
         <Link
           href="/"
           className="flex items-center"
-          onMouseEnter={() => setLogoHovered(true)}
-          onMouseLeave={() => setLogoHovered(false)}
         >
           <Image
-            src={logoHovered ? "/alphadevs_logo.gif" : "/alphadevs_logo.svg"}
+            src="/alphadevs_logo.svg"
             alt="AlphaDevs Labs"
             width={160}
             height={100}
             priority
-            unoptimized={logoHovered}
           />
         </Link>
 

@@ -13,7 +13,9 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ image, name, tags, description, href }: ProjectCardProps) {
   return (
-    <Card className="relative transition-all backdrop-blur-sm rounded-2xl border bg-zinc-900/80 border-white/10 hover:border-primary shadow-2xl overflow-hidden flex flex-col">
+    <Card className="relative transition-colors backdrop-blur-sm rounded-2xl border bg-zinc-900/80 border-white/10 hover:border-primary/50 shadow-2xl overflow-hidden flex flex-col">
+      {/* Top accent line */}
+      <div className="absolute top-0 left-6 right-6 h-px bg-linear-to-r from-transparent via-primary/60 to-transparent z-10" />
       <div className="relative w-full aspect-video overflow-hidden">
         <Image
           src={image}

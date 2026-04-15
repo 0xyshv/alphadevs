@@ -69,8 +69,8 @@
   --popover: 241 53% 22%;
   --popover-foreground: 220 20% 92%;
 
-  /* Primary Accent / CTA – Soft Lavender #9290C3 */
-  --primary: 242 30% 67%;
+  /* Primary Accent / CTA – Soft Lavender (lightened) */
+  --primary: 242 55% 88%;
   --primary-foreground: 227 72% 8%;
 
   /* Secondary / Muted / Borders – Muted Blue #535C91 */

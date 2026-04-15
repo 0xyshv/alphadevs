@@ -17,7 +17,7 @@ const FinalCta = () => {
         <Button
           asChild
           size="lg"
-          className="font-figtree font-semibold gap-2 bg-primary hover:bg-primary/90 text-primary-foreground mt-2 px-10"
+          className="font-figtree font-semibold gap-2 bg-primary text-primary-foreground mt-2 px-10"
         >
           <a href="https://t.me/AlphaDevsOfficial" target="_blank" rel="noopener noreferrer" className='font-figtree'>
             <Calendar className="w-4 h-4" />

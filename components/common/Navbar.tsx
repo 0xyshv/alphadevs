@@ -64,7 +64,7 @@ export default function Navbar() {
                 Work
               </NavigationMenuTrigger>
               <NavigationMenuContent>
-                <ul className="w-52 p-2 bg-black">
+                <ul className="w-52 p-2 ">
                   {workItems.map((item) => (
                     <li key={item.href}>
                       <NavigationMenuLink asChild>
@@ -84,7 +84,7 @@ export default function Navbar() {
             <NavigationMenuItem>
               <NavigationMenuLink asChild className="hover:bg-transparent focus:bg-transparent">
                 <Link
-                  href="/company"
+                  href="/why-us"
                   className="font-figtree px-4  text-lg font-medium text-white/70 hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all"
                 >
                   Why Us

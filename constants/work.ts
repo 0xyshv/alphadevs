@@ -108,6 +108,57 @@ export const web3Projects: Project[] = [
   },
 ];
 
+export const achievementProjects: Project[] = [
+  {
+    image: "/sample.png",
+    name: "50+ Projects Shipped",
+    tags: ["Milestone", "2024"],
+    description:
+      "Crossed 50 successfully delivered products across AI, Web3, and SaaS — from MVP to full-scale production.",
+    href: "#",
+  },
+  {
+    image: "/sample.png",
+    name: "80% Response Time Cut",
+    tags: ["Client Impact", "2024"],
+    description:
+      "AI automation solutions we built reduced average client response times by 80%, directly improving customer satisfaction scores.",
+    href: "#",
+  },
+  {
+    image: "/sample.png",
+    name: "$10M+ On-chain Volume",
+    tags: ["Scale", "2023"],
+    description:
+      "DeFi and Web3 protocols built by our team collectively processed over $10 million in on-chain transaction volume.",
+    href: "#",
+  },
+  {
+    image: "/sample.png",
+    name: "14-Day MVP Launches",
+    tags: ["Speed", "2024"],
+    description:
+      "Established a repeatable process to take clients from zero to a live, fully functional MVP in under two weeks.",
+    href: "#",
+  },
+  {
+    image: "/sample.png",
+    name: "100% Client Retention",
+    tags: ["Growth", "2023"],
+    description:
+      "Every client we've worked with has either extended their engagement or returned for a follow-on project — zero churn.",
+    href: "#",
+  },
+  {
+    image: "/sample.png",
+    name: "Top Web3 Dev Studio",
+    tags: ["Recognition", "2024"],
+    description:
+      "Recognised by three independent developer communities as a leading boutique Web3 and AI development studio.",
+    href: "#",
+  },
+];
+
 export const aiAgentProjects: Project[] = [
   {
     image: "/sample.png",

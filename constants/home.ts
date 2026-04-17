@@ -1,22 +1,63 @@
 export const stats = [
-  { value: "$5M+", label: "Capital raised", countTo: 5, prefix: "$", suffix: "M+" },
-  { value: "20+", label: "Products delivered", countTo: 20, prefix: "", suffix: "+" },
-  { value: "$5K", label: "Build your MVP", countTo: 5, prefix: "$", suffix: "K" },
+  {
+    value: "$5M+",
+    label: "Capital raised",
+    countTo: 5,
+    prefix: "$",
+    suffix: "M+",
+  },
+  {
+    value: "20+",
+    label: "Products delivered",
+    countTo: 20,
+    prefix: "",
+    suffix: "+",
+  },
+  {
+    value: "$5K",
+    label: "Build your MVP",
+    countTo: 5,
+    prefix: "$",
+    suffix: "K",
+  },
 ];
 
 export const partners: { name: string; logo?: string; description: string }[] =
   [
     {
-      name: "NEAR",
+      name: "NEAR ",
       logo: "/assets/near.svg",
       description:
         "NEAR Protocol — a high-speed, low-cost Layer 1 blockchain built for mass adoption and seamless developer experience.",
     },
     {
-      name: "Bitte",
+      name: "OpenClaw",
       logo: "/assets/bitte.svg",
       description:
         "Bitte — AI-powered wallet infrastructure enabling intelligent agents to interact with blockchain protocols.",
+    },
+    {
+      name: "Near AI",
+      logo: "/assets/bitte.svg",
+      description:
+        "Bitte — AI-powered wallet infrastructure enabling intelligent agents to interact with blockchain protocols.",
+    },
+    {
+      name: "MCP",
+      logo: "/assets/bitte.svg",
+      description:
+        "Bitte — AI-powered wallet infrastructure enabling intelligent agents to interact with blockchain protocols.",
+    },
+    {
+      name: "x402",
+      logo: "/assets/bitte.svg",
+      description:
+        "Bitte — AI-powered wallet infrastructure enabling intelligent agents to interact with blockchain protocols.",
+    },
+    {
+      name: "Telegram ",
+      logo: "/assets/giza.svg",
+      description: "Telegram Mini Apps and Bots.",
     },
     {
       name: "Ethereum",
@@ -25,10 +66,22 @@ export const partners: { name: string; logo?: string; description: string }[] =
         "Ethereum — the leading decentralized smart contract platform powering DeFi, NFTs, and Web3 applications.",
     },
     {
-      name: "Starknet",
-      logo: "/assets/starknet.svg",
+      name: "Bitcoin",
+      logo: "/assets/eth.svg",
       description:
-        "Starknet — a permissionless ZK-rollup that scales Ethereum with high throughput and low transaction fees.",
+        "Ethereum — the leading decentralized smart contract platform powering DeFi, NFTs, and Web3 applications.",
+    },
+    {
+      name: "Aave",
+      logo: "/assets/giza.svg",
+      description:
+        "GIZA — zero-knowledge machine learning infrastructure bringing verifiable AI on-chain.",
+    },
+
+    {
+      name: "Safe",
+      logo: "/assets/giza.svg",
+      description: "Gnosis Safe.",
     },
     {
       name: "ZCash",
@@ -37,10 +90,34 @@ export const partners: { name: string; logo?: string; description: string }[] =
         "Zcash — a privacy-focused cryptocurrency using zero-knowledge proofs to shield transaction details.",
     },
     {
+      name: "Polymarket",
+      logo: "/assets/giza.svg",
+      description:
+        "GIZA — zero-knowledge machine learning infrastructure bringing verifiable AI on-chain.",
+    },
+    {
+      name: "Particle Network",
+      logo: "/assets/giza.svg",
+      description:
+        "GIZA — zero-knowledge machine learning infrastructure bringing verifiable AI on-chain.",
+    },
+    {
+      name: "Stellar",
+      logo: "/assets/giza.svg",
+      description:
+        "GIZA — zero-knowledge machine learning infrastructure bringing verifiable AI on-chain.",
+    },
+    {
       name: "GIZA",
       logo: "/assets/giza.svg",
       description:
         "GIZA — zero-knowledge machine learning infrastructure bringing verifiable AI on-chain.",
+    },
+    {
+      name: "Starknet",
+      logo: "/assets/starknet.svg",
+      description:
+        "Starknet — a permissionless ZK-rollup that scales Ethereum with high throughput and low transaction fees.",
     },
   ];
 
@@ -64,7 +141,7 @@ export const plans = [
     description: "Full-featured product ready to scale.",
     features: [
       "Full product scope",
-      "8-week delivery",
+      "4-8 week delivery",
       "Design, dev & QA",
       "3 revision rounds",
       "Launch support",
@@ -78,10 +155,10 @@ export const plans = [
     description: "Ongoing partnership for complex products.",
     features: [
       "Dedicated team",
-      "Flexible timeline",
-      "Strategy & roadmap",
-      "Unlimited revisions",
-      "Priority support",
+      "Ongoing retainer model",
+      "Product strategy & roadmap",
+      "Priority support & SLA",
+      "Intl. business setup & structuring advisory",
     ],
     cta: "Talk to us",
     highlighted: false,

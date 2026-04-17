@@ -20,7 +20,7 @@ export default function Partners() {
 
       <div className="relative max-w-5xl mx-auto flex flex-col items-center gap-20">
         <p className="font-figtree font-semibold text-2xl uppercase tracking-widest text-white">
-          Teams &amp; projects we&apos;ve worked with
+          Teams &amp; technologies we&apos;ve worked with
         </p>
         <div className="group w-full overflow-x-hidden py-4 mask-[linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
           <div className="flex animate-marquee group-hover:paused">

@@ -166,7 +166,7 @@ export const aiAgentProjects: Project[] = [
     tags: ["AI Agents", "Automation"],
     description:
       "Built a multi-agent orchestration system that automates end-to-end customer support workflows, reducing response time by 80%.",
-    href: "#",
+    href: "#", // calendar link
   },
   {
     image: "/sample.png",

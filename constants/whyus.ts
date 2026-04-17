@@ -13,7 +13,7 @@ export const whyUsItems: WhyUsItem[] = [
       "We don't hand off work between disconnected teams. Every engineer at AlphaDevs is capable across the full stack — from database schema design and API architecture to pixel-perfect UI and deployment pipelines. This means fewer handoffs, faster decisions, and products that actually hold together.",
     highlights: [
       "Frontend (React, Next.js)",
-      "Backend (Node, Python, Go)",
+      "Backend (Bun, Node, Python)",
       "Infrastructure (AWS, GCP, Vercel)",
       "Mobile (React Native)",
     ],
@@ -36,10 +36,10 @@ export const whyUsItems: WhyUsItem[] = [
     about:
       "We've built on-chain from the start — smart contracts, token protocols, DeFi primitives, and wallet-native UX. Whether you need a consumer dApp or a complex protocol, we know the tradeoffs between chains, understand gas optimization, and ship secure, auditable code.",
     highlights: [
-      "Solidity / EVM",
-      "DeFi & Staking Protocols",
-      "NFT & DAO Infrastructure",
-      "Cross-chain Bridges",
+      "AI x Blockchain",
+      "DeFi Protocols",
+      "Agentic Payments",
+      "Cross-chain dApps",
     ],
   },
   {
@@ -48,10 +48,10 @@ export const whyUsItems: WhyUsItem[] = [
     about:
       "Speed without recklessness. We ship working software in weeks, not quarters, because we keep scope tight, move in small iterations, and don't wait for perfection before we ship. Our process is built around getting real product in front of real users as fast as possible.",
     highlights: [
-      "1-week sprints",
-      "MVP in 2–4 weeks",
+      "Rapid Prototyping",
+      "MVP in weeks",
       "CI/CD from day one",
-      "Weekly demos",
+      "Weekly Updates",
     ],
   },
   {
@@ -60,9 +60,8 @@ export const whyUsItems: WhyUsItem[] = [
     about:
       "No black boxes. You get access to our task board, you're in the same communication channels as the engineers, and we give you a demo every single week. We don't hide behind project managers or status reports — you always know exactly where things stand.",
     highlights: [
-      "Shared Notion / Linear board",
-      "Weekly video demos",
-      "Direct engineer access",
+      "Weekly Progress",
+      "Telegram Groups",
       "Clear scope agreements",
     ],
   },

@@ -1,7 +1,9 @@
+"use client";
 import { ArrowRight } from "lucide-react";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import { ProjectType } from "@/constants/work";
 
 interface ProjectCardProps {
   image: string;
@@ -9,6 +11,8 @@ interface ProjectCardProps {
   tags: string[];
   description: string;
   href: string;
+  ctaText?: string;
+  type: ProjectType;
 }
 
 export default function ProjectCard({
@@ -17,6 +21,8 @@ export default function ProjectCard({
   tags,
   description,
   href,
+  ctaText = "View Project",
+  type,
 }: ProjectCardProps) {
   return (
     <Card className="relative transition-colors backdrop-blur-sm rounded-2xl border bg-zinc-900/80 border-white/10 hover:border-primary/50 shadow-2xl overflow-hidden flex flex-col">
@@ -40,12 +46,13 @@ export default function ProjectCard({
 
       <CardFooter className="pt-0 pb-6">
         <Button
-          asChild
           className="font-figtree font-semibold bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-6 gap-2"
+          onClick={() => {
+            if (href) window.open(href, "_blank", "noopener,noreferrer");
+          }}
         >
-          <a href={href} target="_blank" rel="noopener noreferrer">
-            Build this <ArrowRight className="w-4 h-4" />
-          </a>
+          {ctaText}
+          {type !== "achievements" && <ArrowRight className="w-4 h-4" />}
         </Button>
       </CardFooter>
     </Card>

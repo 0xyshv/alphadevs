@@ -30,6 +30,20 @@ export default function Footer() {
             <p className="font-figtree font-semibold text-sm text-white/90">
               AlphaDevs Labs L.L.C-FZ
             </p>
+            <Link
+              href="https://www.dnb.com/en-us/smb/duns.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-2.5 py-1 rounded-full border border-white/10 bg-white/5 w-fit hover:border-white/25 hover:bg-white/10 transition-colors"
+            >
+              <span className="font-figtree text-xs font-semibold text-white/70 tracking-wide">
+                DUNS
+                <sup className="text-[10px] font-bold text-white/50">
+                  ®
+                </sup>{" "}
+                Verified Company
+              </span>
+            </Link>
             <p className="font-figtree font-normal text-sm text-white/50 max-w-[220px] leading-relaxed">
               The Meydan Hotel, Grandstand, 6th floor, Meydan Road, Nad Al
               Sheba, Dubai, U.A.E

@@ -1,9 +1,13 @@
+export type ProjectType = "saas" | "web3" | "ai-agents" | "achievements";
+
 export interface Project {
   image: string;
   name: string;
   tags: string[];
   description: string;
   href: string;
+  ctaText?: string;
+  type: ProjectType;
 }
 
 export const saasProjects: Project[] = [
@@ -14,6 +18,8 @@ export const saasProjects: Project[] = [
     description:
       "Built a multi-tenant project management SaaS with real-time collaboration, custom workflows, and deep analytics for distributed teams.",
     href: "#",
+    ctaText: "Build Your SaaS",
+    type: "saas",
   },
   {
     image: "/sample.png",
@@ -22,6 +28,8 @@ export const saasProjects: Project[] = [
     description:
       "Developed a subscription billing platform with usage-based pricing, automated invoicing, and Stripe integration for B2B SaaS companies.",
     href: "#",
+    ctaText: "Build Your SaaS",
+    type: "saas",
   },
   {
     image: "/sample.png",
@@ -30,6 +38,8 @@ export const saasProjects: Project[] = [
     description:
       "Created a no-code form builder SaaS with conditional logic, webhook integrations, and branded form portals for non-technical teams.",
     href: "#",
+    ctaText: "Build Your SaaS",
+    type: "saas",
   },
   {
     image: "/sample.png",
@@ -38,6 +48,8 @@ export const saasProjects: Project[] = [
     description:
       "Engineered a smart email management SaaS that auto-categorizes, prioritizes, and drafts responses using AI to cut inbox time in half.",
     href: "#",
+    ctaText: "Build Your SaaS",
+    type: "saas",
   },
   {
     image: "/sample.png",
@@ -46,6 +58,8 @@ export const saasProjects: Project[] = [
     description:
       "Designed an event analytics SaaS that captures user behavior across web and mobile, with funnel visualizations and retention dashboards.",
     href: "#",
+    ctaText: "Build Your SaaS",
+    type: "saas",
   },
   {
     image: "/sample.png",
@@ -54,6 +68,8 @@ export const saasProjects: Project[] = [
     description:
       "Built a workforce scheduling SaaS for shift-based businesses, featuring drag-and-drop planning, auto-conflict detection, and SMS notifications.",
     href: "#",
+    ctaText: "Build Your SaaS",
+    type: "saas",
   },
 ];
 
@@ -65,6 +81,8 @@ export const web3Projects: Project[] = [
     description:
       "Built a decentralized asset vault protocol on Ethereum with multi-sig governance, yield strategies, and on-chain risk controls.",
     href: "#",
+    ctaText: "Build Your Web3 Product",
+    type: "web3",
   },
   {
     image: "/sample.png",
@@ -73,6 +91,8 @@ export const web3Projects: Project[] = [
     description:
       "Developed a generative NFT platform with lazy minting, royalty enforcement via ERC-2981, and a curated creator marketplace.",
     href: "#",
+    ctaText: "Build Your Web3 Product",
+    type: "web3",
   },
   {
     image: "/sample.png",
@@ -81,6 +101,8 @@ export const web3Projects: Project[] = [
     description:
       "Engineered a DAO governance system with token-weighted voting, proposal lifecycle management, and Snapshot integration for off-chain signaling.",
     href: "#",
+    ctaText: "Build Your Web3 Product",
+    type: "web3",
   },
   {
     image: "/sample.png",
@@ -89,6 +111,8 @@ export const web3Projects: Project[] = [
     description:
       "Created a cross-chain token bridge supporting EVM-compatible networks with atomic swaps, slippage protection, and real-time fee estimation.",
     href: "#",
+    ctaText: "Build Your Web3 Product",
+    type: "web3",
   },
   {
     image: "/sample.png",
@@ -97,6 +121,8 @@ export const web3Projects: Project[] = [
     description:
       "Designed a liquid staking protocol that issues receipt tokens for staked assets, enabling users to stay liquid while earning staking rewards.",
     href: "#",
+    ctaText: "Build Your Web3 Product",
+    type: "web3",
   },
   {
     image: "/sample.png",
@@ -105,6 +131,8 @@ export const web3Projects: Project[] = [
     description:
       "Built a decentralized identity solution using DIDs and verifiable credentials, allowing users to own and selectively share their on-chain reputation.",
     href: "#",
+    ctaText: "Build Your Web3 Product",
+    type: "web3",
   },
 ];
 
@@ -115,7 +143,9 @@ export const achievementProjects: Project[] = [
     tags: ["Milestone", "2024"],
     description:
       "Crossed 50 successfully delivered products across AI, Web3, and SaaS — from MVP to full-scale production.",
-    href: "#",
+    href: "",
+    ctaText: "ETH Hackathon Winner 🏆",
+    type: "achievements",
   },
   {
     image: "/sample.png",
@@ -124,6 +154,8 @@ export const achievementProjects: Project[] = [
     description:
       "AI automation solutions we built reduced average client response times by 80%, directly improving customer satisfaction scores.",
     href: "#",
+    ctaText: "Start Your Project",
+    type: "achievements",
   },
   {
     image: "/sample.png",
@@ -132,6 +164,8 @@ export const achievementProjects: Project[] = [
     description:
       "DeFi and Web3 protocols built by our team collectively processed over $10 million in on-chain transaction volume.",
     href: "#",
+    ctaText: "Start Your Project",
+    type: "achievements",
   },
   {
     image: "/sample.png",
@@ -140,6 +174,8 @@ export const achievementProjects: Project[] = [
     description:
       "Established a repeatable process to take clients from zero to a live, fully functional MVP in under two weeks.",
     href: "#",
+    ctaText: "Start Your Project",
+    type: "achievements",
   },
   {
     image: "/sample.png",
@@ -148,6 +184,8 @@ export const achievementProjects: Project[] = [
     description:
       "Every client we've worked with has either extended their engagement or returned for a follow-on project — zero churn.",
     href: "#",
+    ctaText: "Start Your Project",
+    type: "achievements",
   },
   {
     image: "/sample.png",
@@ -156,6 +194,8 @@ export const achievementProjects: Project[] = [
     description:
       "Recognised by three independent developer communities as a leading boutique Web3 and AI development studio.",
     href: "#",
+    ctaText: "Start Your Project",
+    type: "achievements",
   },
 ];
 
@@ -166,7 +206,9 @@ export const aiAgentProjects: Project[] = [
     tags: ["AI Agents", "Automation"],
     description:
       "Built a multi-agent orchestration system that automates end-to-end customer support workflows, reducing response time by 80%.",
-    href: "#", // calendar link
+    href: "#",
+    ctaText: "Build Your AI Agent",
+    type: "ai-agents",
   },
   {
     image: "/sample.png",
@@ -175,6 +217,8 @@ export const aiAgentProjects: Project[] = [
     description:
       "Developed an autonomous data analyst agent that ingests raw datasets and surfaces actionable insights without human intervention.",
     href: "#",
+    ctaText: "Build Your AI Agent",
+    type: "ai-agents",
   },
   {
     image: "/sample.png",
@@ -183,6 +227,8 @@ export const aiAgentProjects: Project[] = [
     description:
       "Designed and deployed a conversational AI agent integrated into a SaaS platform to handle onboarding, billing queries, and feature discovery.",
     href: "#",
+    ctaText: "Build Your AI Agent",
+    type: "ai-agents",
   },
   {
     image: "/sample.png",
@@ -191,6 +237,8 @@ export const aiAgentProjects: Project[] = [
     description:
       "Created an AI-powered security monitoring agent that detects anomalies in real time and triggers automated incident response pipelines.",
     href: "#",
+    ctaText: "Build Your AI Agent",
+    type: "ai-agents",
   },
   {
     image: "/sample.png",
@@ -199,6 +247,8 @@ export const aiAgentProjects: Project[] = [
     description:
       "Engineered a financial reconciliation agent that autonomously processes transactions, flags discrepancies, and generates audit-ready reports.",
     href: "#",
+    ctaText: "Build Your AI Agent",
+    type: "ai-agents",
   },
   {
     image: "/sample.png",
@@ -207,5 +257,7 @@ export const aiAgentProjects: Project[] = [
     description:
       "Built a DevOps agent that monitors infrastructure, auto-scales resources based on load predictions, and notifies teams of critical events.",
     href: "#",
+    ctaText: "Build Your AI Agent",
+    type: "ai-agents",
   },
 ];

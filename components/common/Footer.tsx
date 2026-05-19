@@ -37,7 +37,7 @@ export default function Footer() {
               className="inline-flex items-center px-2.5 py-1 rounded-full border border-white/10 bg-white/5 w-fit hover:border-white/25 hover:bg-white/10 transition-colors"
             >
               <span className="font-figtree text-xs font-semibold text-white/70 tracking-wide">
-                DUNS
+                D-U-N-S
                 <sup className="text-[10px] font-bold text-white/50">
                   ®
                 </sup>{" "}

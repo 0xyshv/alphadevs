@@ -32,7 +32,7 @@ export default function Home() {
               className="inline-flex items-center px-3 py-1.5 rounded-full border border-white/10 bg-white/5 hover:border-white/25 hover:bg-white/10 transition-colors"
             >
               <span className="font-figtree font-medium text-xs text-white/60 tracking-wide">
-                DUNS
+                D-U-N-S
                 <sup className="text-[12px] font-bold text-white/40">
                   ®
                 </sup>{" "}

@@ -24,58 +24,61 @@ export default function About() {
           {/* Paragraphs */}
           <p className="font-figtree text-sm leading-relaxed text-white/70">
             <strong className="font-semibold text-white/90">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              The internet is being rewritten in real time.
             </strong>{" "}
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            AI agents are replacing manual workflows and blockchains are
+            becoming the settlement layer for autonomous systems. The builders
+            who move now will define the next decade of software.
           </p>
 
           <p className="font-figtree text-sm leading-relaxed text-white/70">
             <strong className="font-semibold text-white/90">
-              Duis aute irure dolor in reprehenderit,
+              We started AlphaDevs because we saw this convergence coming.
             </strong>{" "}
-            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Dozens of shipped products later. Multi-agent systems that
+            dramatically increased team productivity. Web3 applications that
+            processed millions in on-chain volume. MVPs live in 14 days. We have
+            done this across Ethereum, Sui, NEAR, Bitcoin, and beyond.
           </p>
 
           <p className="font-figtree text-sm leading-relaxed text-white/70">
             As a team of{" "}
             <strong className="font-semibold text-white/90">
-              lorem ipsum engineers, designers, and product managers
+              full-stack engineers, protocol architects, and AI specialists,
             </strong>{" "}
-            sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-            architecto beatae vitae dicta sunt explicabo.
+            we don&apos;t treat these as separate disciplines. Agentic payments,
+            on-chain automation, and AI-powered SaaS are not three different
+            products. They are where software is going, and we build all of it.
           </p>
 
           <p className="font-figtree text-sm leading-relaxed text-white/70">
-            <strong className="font-semibold text-white/90">Looking back on 8+ years now,</strong>{" "}
-            nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.{" "}
+            Every founder we have worked with has trusted us with their next product.{" "}
             <strong className="font-semibold text-white/90">
-              (lorem, ipsum, dolor, sit amet, consectetur)
-            </strong>
-            .
-          </p>
-
-          <p className="font-figtree text-sm leading-relaxed text-white/70">
-            We can&apos;t wait to continue building more,{" "}
-            <strong className="font-semibold text-white/90">
-              and we&apos;d love to work with you next.
+              We&apos;d love to work with you next.
             </strong>
           </p>
 
           {/* Footer row */}
-          <div className="flex items-end justify-between pt-8">
-            <span className="font-figtree font-semibold text-md tracking-widest uppercase text-white/30">
-              The AlphaDevs Team
-            </span>
+          <div className="flex items-center justify-between pt-8 border-t border-white/10">
+            <a
+              href="https://x.com/0xmht"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col gap-0.5 group"
+            >
+              <span className="font-figtree font-bold text-sm text-white/70 group-hover:text-white/90 transition-colors">
+                MHT
+              </span>
+              <span className="font-figtree text-xs text-white/30 group-hover:text-white/50 transition-colors">
+                Founder & CEO, AlphaDevs Labs
+              </span>
+            </a>
             <Image
               src="/alphadevs_logo.svg"
               alt="AlphaDevs"
-              width={150}
-              height={28}
-              className="opacity-80"
+              width={120}
+              height={24}
+              className="opacity-50"
             />
           </div>
         </div>

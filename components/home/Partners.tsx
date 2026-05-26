@@ -23,7 +23,7 @@ export default function Partners() {
           Teams &amp; technologies we&apos;ve worked with
         </p>
         <div className="group w-full overflow-x-hidden py-4 mask-[linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
-          <div className="flex animate-marquee group-hover:paused">
+          <div className="flex w-max animate-marquee group-hover:[animation-play-state:paused]">
             {[0, 1].map((copyIndex) => (
               <div key={copyIndex} className="flex gap-6 pr-6">
                 {partners.map((partner, i) => (

@@ -8,7 +8,7 @@ const AiAgents = () => (
     description="Autonomous systems we've built that think, decide, and act on behalf of our clients."
   >
     {aiAgentProjects.map((project) => (
-      <div key={project.name} className="w-80 shrink-0">
+      <div key={project.name} className="w-full md:w-80 md:shrink-0 md:h-full">
         <ProjectCard {...project} />
       </div>
     ))}

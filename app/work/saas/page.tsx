@@ -8,7 +8,7 @@ const Saas = () => (
     description="Scalable software products we've built that solve real problems for real businesses."
   >
     {saasProjects.map((project) => (
-      <div key={project.name} className="w-80 shrink-0">
+      <div key={project.name} className="w-full md:w-80 md:shrink-0 md:h-full">
         <ProjectCard {...project} />
       </div>
     ))}

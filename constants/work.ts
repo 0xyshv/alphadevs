@@ -1,7 +1,7 @@
 export type ProjectType = "saas" | "web3" | "ai-agents" | "achievements";
 
 export interface Project {
-  image: string;
+  icon: string;
   name: string;
   tags: string[];
   description: string;
@@ -9,9 +9,10 @@ export interface Project {
   ctaText?: string;
   type: ProjectType;
 }
+
 export const achievementProjects: Project[] = [
   {
-    image: "/assets/achivements/bitcoin-agent.png",
+    icon: "Bot",
     name: "Near Bitcoin Agent",
     tags: ["NEAR Protocol", "Bitcoin", "AI Agent"],
     description:
@@ -21,7 +22,7 @@ export const achievementProjects: Project[] = [
     type: "achievements",
   },
   {
-    image: "/assets/achivements/multichain-disperse.png",
+    icon: "Network",
     name: "Multichain Disperse",
     tags: ["Chain Abstraction", "Multichain", "Web3"],
     description:
@@ -31,7 +32,7 @@ export const achievementProjects: Project[] = [
     type: "achievements",
   },
   {
-    image: "/assets/achivements/photon.png",
+    icon: "GraduationCap",
     name: "Photon",
     tags: ["EdTech", "Theta Network", "Web3"],
     description:
@@ -41,7 +42,7 @@ export const achievementProjects: Project[] = [
     type: "achievements",
   },
   {
-    image: "/assets/achivements/starknet-txn-simulator.png",
+    icon: "Terminal",
     name: "Starknet Txn Simulator",
     tags: ["Starknet", "AI", "Dev Tools"],
     description:
@@ -51,7 +52,7 @@ export const achievementProjects: Project[] = [
     type: "achievements",
   },
   {
-    image: "/assets/achivements/game-of-pots.png",
+    icon: "Trophy",
     name: "Game of Pots",
     tags: ["DeFi", "Ethena", "No-Loss Lottery"],
     description:
@@ -64,64 +65,74 @@ export const achievementProjects: Project[] = [
 
 export const aiAgentProjects: Project[] = [
   {
-    image: "/assets/ai-agents/defi-risk-monitor.png",
-    name: "DeFi Risk Monitor",
-    tags: ["AI Agents", "DeFi", "Risk"],
+    icon: "Code2",
+    name: "Coding & Dev Workflow",
+    tags: ["AI Agents", "Dev Tooling", "Automation"],
     description:
-      "Autonomous agent monitoring on-chain positions across DeFi protocols, flagging liquidation risk in real time and executing rebalances before a position gets wiped.",
+      "Agents wired into your engineering pipeline for automated PR reviews, test generation, code migration, and inline docs. Ship faster without growing the team.",
     href: "https://calendly.com/0xalphadevs/schedule-meeting",
-    ctaText: "Book a Discovery Call",
+    ctaText: "Build a Coding Agent",
     type: "ai-agents",
   },
   {
-    image: "/assets/ai-agents/contract-audit-agent.png",
-    name: "Contract Audit Agent",
-    tags: ["AI Agents", "Security", "Web3"],
+    icon: "ShoppingBag",
+    name: "Commerce & Retail",
+    tags: ["AI Agents", "E-commerce", "Personalization"],
     description:
-      "AI agent that scans Solidity and Cairo contracts for vulnerability patterns, generates structured audit reports, and surfaces prioritised remediations for dev teams.",
+      "Agents that run your catalog around the clock. Product recommendations, dynamic pricing, inventory reordering, and cart recovery all learning from every interaction.",
     href: "https://calendly.com/0xalphadevs/schedule-meeting",
-    ctaText: "Book a Discovery Call",
+    ctaText: "Build a Commerce Agent",
     type: "ai-agents",
   },
   {
-    image: "/assets/ai-agents/on-chain-alpha-agent.png",
-    name: "On-chain Alpha Agent",
-    tags: ["AI Agents", "Research", "DeFi"],
+    icon: "Target",
+    name: "Sales & Outbound",
+    tags: ["AI Agents", "Sales", "GTM"],
     description:
-      "Monitors whale wallet movements, governance proposals, and protocol TVL shifts across chains to surface actionable trading signals and daily on-chain research digests.",
+      "Agents that research prospects, draft personalised outreach, and sync your CRM so your reps spend time closing instead of doing data entry.",
     href: "https://calendly.com/0xalphadevs/schedule-meeting",
-    ctaText: "Book a Discovery Call",
+    ctaText: "Build a Sales Agent",
+    type: "ai-agents",
+  },
+  {
+    icon: "ScanSearch",
+    name: "Research & Intelligence",
+    tags: ["AI Agents", "Market Research", "Competitive Intel"],
+    description:
+      "Agents that track competitors, monitor industry signals, and deliver structured research briefs on demand. Your always-on analyst that never misses a signal.",
+    href: "https://calendly.com/0xalphadevs/schedule-meeting",
+    ctaText: "Build a Research Agent",
     type: "ai-agents",
   },
 ];
 
 export const saasProjects: Project[] = [
   {
-    image: "/assets/saas/documint.png",
-    name: "DocuMint",
-    tags: ["SaaS", "Productivity", "AI"],
+    icon: "FileSignature",
+    name: "Document & Contract Automation",
+    tags: ["SaaS", "AI", "Legal Workflows"],
     description:
-      "AI-powered document platform that generates contracts, proposals, and NDAs from smart templates , populate variables in seconds and send for e-signature.",
+      "Smart templates that generate contracts, proposals, and NDAs from your data and route for e-signature. From blank page to countersigned in minutes.",
     href: "https://calendly.com/0xalphadevs/schedule-meeting",
     ctaText: "Build Your SaaS",
     type: "saas",
   },
   {
-    image: "/assets/saas/feedbackloop.png",
-    name: "FeedbackLoop",
-    tags: ["SaaS", "Analytics", "AI"],
+    icon: "MessageSquare",
+    name: "AI Customer Support",
+    tags: ["SaaS", "AI", "Support"],
     description:
-      "Aggregates customer feedback from email, Slack, and support tools, then uses AI to cluster, tag, and surface the top product issues to your team weekly.",
+      "Autonomous support agents trained on your knowledge base. They resolve tickets, handle escalations, and surface recurring patterns to your product team.",
     href: "https://calendly.com/0xalphadevs/schedule-meeting",
     ctaText: "Build Your SaaS",
     type: "saas",
   },
   {
-    image: "/assets/saas/jira-summarizer.png",
-    name: "Jira Summarizer",
-    tags: ["SaaS", "Productivity", "AI"],
+    icon: "Boxes",
+    name: "Developer Tools & APIs",
+    tags: ["SaaS", "Dev Tools", "API"],
     description:
-      "Built a Jira plugin that auto-summarises issue descriptions and generates PR summaries using Llama 2, cutting documentation overhead for engineering teams.",
+      "SDKs, webhook infrastructure, and API products that make your platform the default integration choice. Great developer experience as a competitive moat.",
     href: "https://calendly.com/0xalphadevs/schedule-meeting",
     ctaText: "Build Your SaaS",
     type: "saas",
@@ -130,43 +141,43 @@ export const saasProjects: Project[] = [
 
 export const web3Projects: Project[] = [
   {
-    image: "/assets/web3/savendpay.png",
-    name: "SavendPay",
-    tags: ["Web3", "Bitcoin", "DeFi"],
+    icon: "Banknote",
+    name: "Stablecoin Payments",
+    tags: ["Web3", "Payments", "Stablecoins"],
     description:
-      "Bitcoin-native app on Mezo, deposit BTC as collateral, mint MUSD stablecoin, and spend it daily via an AI allocator managing your save/spend balance.",
+      "B2B invoicing, cross-border payroll, and subscription billing settled on-chain in USDC. Programmable money that moves instantly without correspondent banks or FX fees.",
     href: "https://calendly.com/0xalphadevs/schedule-meeting",
-    ctaText: "Build Your Web3 Product",
+    ctaText: "Build a Payments Product",
     type: "web3",
   },
   {
-    image: "/assets/web3/a2a-capital.png",
-    name: "A2A Capital",
-    tags: ["Web3", "AI Agents", "DeFi"],
+    icon: "Landmark",
+    name: "Tokenized Real-World Assets",
+    tags: ["Web3", "RWA", "Tokenization"],
     description:
-      "Autonomous portfolio system where AI agents coordinate via A2A protocols, pay for market signals using x402, and continuously rebalance BTC, ETH, and USDC.",
+      "Bring real estate, private equity, and IP rights on-chain with fractional ownership, automated distributions, and secondary liquidity for assets that were never tradeable.",
     href: "https://calendly.com/0xalphadevs/schedule-meeting",
-    ctaText: "Build Your Web3 Product",
+    ctaText: "Tokenize Your Asset",
     type: "web3",
   },
   {
-    image: "/assets/web3/streamline.png",
-    name: "Streamline",
-    tags: ["Web3", "DeFi", "Payments"],
+    icon: "BarChart2",
+    name: "DeFi Protocols",
+    tags: ["Web3", "DeFi", "Lending"],
     description:
-      "Built a real-time token streaming protocol for continuous payroll, vesting, and subscriptions, funds flow per second on-chain rather than in lump-sum transactions.",
+      "Custom lending markets, yield vaults, and liquidity protocols built security-first. From architecture and smart contract development through to third-party audit.",
     href: "https://calendly.com/0xalphadevs/schedule-meeting",
-    ctaText: "Build Your Web3 Product",
+    ctaText: "Build a DeFi Protocol",
     type: "web3",
   },
   {
-    image: "/assets/web3/zkcreditscore.png",
-    name: "zkCreditScore",
+    icon: "Fingerprint",
+    name: "ZK Identity & Compliance",
     tags: ["Web3", "ZK Proofs", "Privacy"],
     description:
-      "Zero-knowledge credit scoring that lets users prove creditworthiness to lenders on-chain without revealing any underlying financial data or wallet history.",
+      "Privacy-preserving KYC and verifiable credentials that satisfy on-chain compliance requirements without exposing user data. Built for regulated markets from day one.",
     href: "https://calendly.com/0xalphadevs/schedule-meeting",
-    ctaText: "Build Your Web3 Product",
+    ctaText: "Build with ZK",
     type: "web3",
   },
 ];

@@ -8,7 +8,7 @@ const Web3 = () => (
     description="Decentralized applications and protocols we've shipped on-chain for the open web."
   >
     {web3Projects.map((project) => (
-      <div key={project.name} className="w-80 shrink-0">
+      <div key={project.name} className="w-full md:w-80 md:shrink-0 md:h-full">
         <ProjectCard {...project} />
       </div>
     ))}

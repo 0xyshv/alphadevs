@@ -78,15 +78,15 @@ export default function WorkCarousel({ title, description, children }: WorkCarou
   ].join(", ");
 
   return (
-    <div className="bg-black text-white overflow-x-hidden">
-      {/* Carousel — exactly one viewport tall so footer starts below the fold */}
+    <div className="bg-black text-white md:overflow-x-hidden">
+      {/* Desktop: full-height horizontal carousel. Mobile: normal vertical scroll. */}
       <section
         ref={sectionRef}
-        className="h-screen flex flex-col pt-24 pb-6 px-2"
+        className="flex flex-col pt-24 pb-6 px-2 md:h-screen"
       >
-        <div className="max-w-6xl mx-auto w-full flex flex-col gap-12 flex-1 min-h-0">
+        <div className="max-w-6xl mx-auto w-full flex flex-col gap-8 md:gap-12 md:flex-1 md:min-h-0 px-4 md:px-0">
           {/* Header */}
-          <div className="flex items-end justify-between gap-4 px-4">
+          <div className="flex items-end justify-between gap-4">
             <div className="flex flex-col gap-3">
               <h1 className="font-figtree font-bold text-4xl md:text-5xl text-white">
                 {title}
@@ -96,7 +96,8 @@ export default function WorkCarousel({ title, description, children }: WorkCarou
               </p>
             </div>
 
-            <div className="flex items-center gap-2 shrink-0">
+            {/* Nav arrows — desktop only */}
+            <div className="hidden md:flex items-center gap-2 shrink-0">
               <button
                 onClick={() => scroll("left")}
                 disabled={!canScrollLeft}
@@ -116,10 +117,10 @@ export default function WorkCarousel({ title, description, children }: WorkCarou
             </div>
           </div>
 
-          {/* Cards */}
+          {/* Cards — horizontal scroll on desktop, vertical stack on mobile */}
           <div
             ref={scrollRef}
-            className="flex gap-6 overflow-x-auto pb-4 scrollbar-hide"
+            className="flex flex-col gap-6 md:flex-row md:overflow-x-auto pb-4 scrollbar-hide"
             style={{
               maskImage: `linear-gradient(to right, ${mask})`,
               WebkitMaskImage: `linear-gradient(to right, ${mask})`,
@@ -130,7 +131,7 @@ export default function WorkCarousel({ title, description, children }: WorkCarou
         </div>
       </section>
 
-      {/* Footer — revealed naturally once cards have been scrolled through */}
+      {/* Footer */}
       <div className="flex justify-center bg-black">
         <FinalCta />
       </div>

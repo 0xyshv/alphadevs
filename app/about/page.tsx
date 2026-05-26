@@ -6,7 +6,7 @@ export default function About() {
     <main className="relative min-h-screen bg-black text-white overflow-hidden flex flex-col items-center justify-center px-6 py-32 gap-16">
       {/* Background glow */}
       <div
-        className="pointer-events-none absolute top-0 right-0 w-[600px] h-[500px] opacity-60"
+        className="pointer-events-none absolute top-0 right-0 w-150 h-125 opacity-60"
         style={{ background: "var(--gradient-about-glow)" }}
       />
 
@@ -52,7 +52,8 @@ export default function About() {
           </p>
 
           <p className="font-figtree text-sm leading-relaxed text-white/70">
-            Every founder we have worked with has trusted us with their next product.{" "}
+            Every founder we have worked with has trusted us with their next
+            product.{" "}
             <strong className="font-semibold text-white/90">
               We&apos;d love to work with you next.
             </strong>
@@ -70,7 +71,10 @@ export default function About() {
                 MHT
               </span>
               <span className="font-figtree text-xs text-white/30 group-hover:text-white/50 transition-colors">
-                Founder & CEO, AlphaDevs Labs
+                Founder & CEO,
+              </span>
+              <span className="font-figtree text-xs text-white/30 group-hover:text-white/50 transition-colors">
+                AlphaDevs Labs
               </span>
             </a>
             <Image

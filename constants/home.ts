@@ -55,7 +55,7 @@ export const partners: { name: string; logo?: string; description: string }[] =
         "Bitte — AI-powered wallet infrastructure enabling intelligent agents to interact with blockchain protocols.",
     },
     {
-      name: "Telegram ",
+      name: "Telegram Apps",
       logo: "/assets/tg.svg",
       description: "Telegram Mini Apps and Bots.",
     },

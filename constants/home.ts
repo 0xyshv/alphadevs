@@ -95,12 +95,12 @@ export const partners: { name: string; logo?: string; description: string }[] =
       description:
         "GIZA — zero-knowledge machine learning infrastructure bringing verifiable AI on-chain.",
     },
-    {
-      name: "Particle Network",
-      logo: "/assets/particle-network.svg",
-      description:
-        "GIZA — zero-knowledge machine learning infrastructure bringing verifiable AI on-chain.",
-    },
+    // {
+    //   name: "Particle Network",
+    //   logo: "/assets/particle-network.svg",
+    //   description:
+    //     "GIZA — zero-knowledge machine learning infrastructure bringing verifiable AI on-chain.",
+    // },
     {
       name: "Eleven Labs",
       logo: "/assets/elevenlabs.svg",

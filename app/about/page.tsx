@@ -3,7 +3,7 @@ import FinalCta from "@/components/common/FinalCta";
 
 export default function About() {
   return (
-    <main className="relative min-h-screen bg-black text-white overflow-hidden flex flex-col items-center justify-center px-6 py-32 gap-16">
+    <main className="relative min-h-screen bg-black text-white overflow-hidden flex flex-col items-center justify-center px-3 md:px-6 py-32 gap-16">
       {/* Background glow */}
       <div
         className="pointer-events-none absolute top-0 right-0 w-150 h-125 opacity-60"

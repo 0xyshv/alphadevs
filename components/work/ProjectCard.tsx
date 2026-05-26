@@ -89,25 +89,25 @@ export default function ProjectCard({
       <div className="absolute top-0 left-6 right-6 h-px bg-linear-to-r from-transparent via-primary/60 to-transparent z-10" />
 
       {/* Icon panel */}
-      <div className="flex items-center justify-center w-full h-44 bg-gradient-to-b from-primary/20 to-card border-b border-white/5">
+      <div className="flex items-center justify-center w-full h-44 shrink-0 bg-gradient-to-b from-primary/20 to-card border-b border-white/5">
         <div className="flex items-center justify-center w-20 h-20 rounded-2xl bg-primary/10 border border-primary/20">
           <Icon className="w-10 h-10 text-primary" strokeWidth={1.5} />
         </div>
       </div>
 
-      <CardContent className="flex flex-col gap-3 pt-6 flex-1">
+      <CardContent className="flex flex-col gap-2 pt-5 flex-1">
         <div className="flex flex-col gap-1">
-          <h3 className="font-figtree font-bold text-2xl text-white">{name}</h3>
-          <p className="font-figtree font-normal text-sm text-white/50">
+          <h3 className="font-figtree font-bold text-xl text-white">{name}</h3>
+          <p className="font-figtree font-normal text-xs text-white/50">
             {tags.join(", ")}
           </p>
         </div>
-        <p className="font-figtree font-normal text-base text-white/70 leading-relaxed">
+        <p className="font-figtree font-normal text-sm text-white/70 leading-relaxed">
           {description}
         </p>
       </CardContent>
 
-      <CardFooter className="pt-0 pb-6">
+      <CardFooter className="pt-0 pb-5">
         <Button
           className="font-figtree font-semibold bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-6 gap-2"
           onClick={() => {

@@ -120,7 +120,7 @@ export default function WorkCarousel({ title, description, children }: WorkCarou
           {/* Cards — horizontal scroll on desktop, vertical stack on mobile */}
           <div
             ref={scrollRef}
-            className="flex flex-col gap-6 md:flex-row md:overflow-x-auto pb-4 scrollbar-hide"
+            className="flex flex-col gap-6 md:flex-row md:overflow-x-auto md:flex-1 md:min-h-0 pb-4 scrollbar-hide md:items-stretch"
             style={{
               maskImage: `linear-gradient(to right, ${mask})`,
               WebkitMaskImage: `linear-gradient(to right, ${mask})`,

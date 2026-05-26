@@ -8,7 +8,7 @@ const TeamAchievements = () => (
     description="Milestones, metrics, and moments that define who we are as a team."
   >
     {achievementProjects.map((project) => (
-      <div key={project.name} className="w-full md:w-80 md:shrink-0 md:h-full">
+      <div key={project.name} className="w-full md:w-80 md:shrink-0 md:flex md:flex-col md:h-full">
         <ProjectCard {...project} />
       </div>
     ))}

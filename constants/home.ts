@@ -56,7 +56,7 @@ export const partners: { name: string; logo?: string; description: string }[] =
     },
     {
       name: "Telegram ",
-      logo: "/assets/giza.svg",
+      logo: "/assets/tg.svg",
       description: "Telegram Mini Apps and Bots.",
     },
     {
@@ -67,20 +67,20 @@ export const partners: { name: string; logo?: string; description: string }[] =
     },
     {
       name: "Bitcoin",
-      logo: "/assets/eth.svg",
+      logo: "/assets/btc.svg",
       description:
         "Ethereum — the leading decentralized smart contract platform powering DeFi, NFTs, and Web3 applications.",
     },
     {
       name: "Aave",
-      logo: "/assets/giza.svg",
+      logo: "/assets/aave.svg",
       description:
         "GIZA — zero-knowledge machine learning infrastructure bringing verifiable AI on-chain.",
     },
 
     {
       name: "Safe",
-      logo: "/assets/giza.svg",
+      logo: "/assets/safe.svg",
       description: "Gnosis Safe.",
     },
     {
@@ -91,19 +91,19 @@ export const partners: { name: string; logo?: string; description: string }[] =
     },
     {
       name: "Polymarket",
-      logo: "/assets/giza.svg",
+      logo: "/assets/polymarket.svg",
       description:
         "GIZA — zero-knowledge machine learning infrastructure bringing verifiable AI on-chain.",
     },
     {
       name: "Particle Network",
-      logo: "/assets/giza.svg",
+      logo: "/assets/particle-network.svg",
       description:
         "GIZA — zero-knowledge machine learning infrastructure bringing verifiable AI on-chain.",
     },
     {
       name: "Stellar",
-      logo: "/assets/giza.svg",
+      logo: "/assets/stellar.svg",
       description:
         "GIZA — zero-knowledge machine learning infrastructure bringing verifiable AI on-chain.",
     },

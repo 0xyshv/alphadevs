@@ -65,7 +65,7 @@ export default function Home() {
               className="font-figtree font-semibold gap-2 bg-primary text-primary-foreground px-8"
             >
               <a
-                href="https://t.me/AlphaDevsOfficial"
+                href="https://calendly.com/0xalphadevs/schedule-meeting"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-figtree"

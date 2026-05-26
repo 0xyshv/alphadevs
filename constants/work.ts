@@ -15,7 +15,7 @@ export const achievementProjects: Project[] = [
     name: "Near Bitcoin Agent",
     tags: ["NEAR Protocol", "Bitcoin", "AI Agent"],
     description:
-      "Built an AI agent enabling native Bitcoin L1 transactions through NEAR accounts using chain signatures and NEAR Intents, no bridges or wrapped tokens needed.",
+      "Built an AI agent for native Bitcoin L1 transactions via NEAR accounts using chain signatures and NEAR Intents — no bridges, no wrapped tokens required.",
     href: "https://github.com/0xAlphaDevs/Near-Bitcoin-Agent",
     ctaText: "NPR Cohort 1 & 2 🏆",
     type: "achievements",
@@ -25,7 +25,7 @@ export const achievementProjects: Project[] = [
     name: "Multichain Disperse",
     tags: ["Chain Abstraction", "Multichain", "Web3"],
     description:
-      "Built a chain abstraction app to disperse tokens across multiple chains and recipients in a single transaction — pay gas on any preferred chain.",
+      "Built a chain abstraction app that disperses tokens to multiple chains and recipients in one transaction — gas payable on any chain the user prefers.",
     href: "https://github.com/0xAlphaDevs/Multichain-Disperse",
     ctaText: "Chain Abstraction Hack Winner 🏆",
     type: "achievements",
@@ -35,7 +35,7 @@ export const achievementProjects: Project[] = [
     name: "Photon",
     tags: ["EdTech", "Theta Network", "Web3"],
     description:
-      "Built a decentralized platform on Theta with NFT-based DRM-protected courses, decentralized video via Theta EdgeCloud, and payments in Photon Tokens.",
+      "Built a decentralized education platform on Theta Network with NFT-based DRM course protection, video via Theta EdgeCloud, and native Photon Token payments.",
     href: "https://github.com/0xAlphaDevs/Photon",
     ctaText: "Theta Hack 🏆",
     type: "achievements",
@@ -45,7 +45,7 @@ export const achievementProjects: Project[] = [
     name: "Starknet Txn Simulator",
     tags: ["Starknet", "AI", "Dev Tools"],
     description:
-      "Built an AI-enhanced transaction simulator on Starknet — auto-fetches ABIs, simulates txns, and generates on-chain AI summaries of transaction behaviour via Galadriel.",
+      "Built an AI-enhanced txn simulator for Starknet — auto-fetches contract ABIs, simulates transactions, and generates human-readable summaries on-chain via Galadriel.",
     href: "https://github.com/0xAlphaDevs/Starknet-Txn-Simulator",
     ctaText: "Web3 AI Hack 🏆",
     type: "achievements",
@@ -55,16 +55,49 @@ export const achievementProjects: Project[] = [
     name: "Game of Pots",
     tags: ["DeFi", "Ethena", "No-Loss Lottery"],
     description:
-      "Built a no-loss lottery platform on Ethena's sUSDe — users pool deposits that earn staking rewards, with winners picked via Conduit VRF and principal always withdrawable.",
+      "Built a no-loss lottery on Ethena's sUSDe — pooled deposits earn staking rewards, Conduit VRF picks winners transparently, and the principal stays withdrawable.",
     href: "https://github.com/0xAlphaDevs/Game-of-Pots",
     ctaText: "Ethena Hackathon 🏆",
     type: "achievements",
   },
 ];
 
+export const aiAgentProjects: Project[] = [
+  {
+    image: "/assets/ai-agents/defi-risk-monitor.png",
+    name: "DeFi Risk Monitor",
+    tags: ["AI Agents", "DeFi", "Risk"],
+    description:
+      "Autonomous agent monitoring on-chain positions across DeFi protocols, flagging liquidation risk in real time and executing rebalances before a position gets wiped.",
+    href: "https://calendly.com/0xalphadevs/schedule-meeting",
+    ctaText: "Book a Discovery Call",
+    type: "ai-agents",
+  },
+  {
+    image: "/assets/ai-agents/contract-audit-agent.png",
+    name: "Contract Audit Agent",
+    tags: ["AI Agents", "Security", "Web3"],
+    description:
+      "AI agent that scans Solidity and Cairo contracts for vulnerability patterns, generates structured audit reports, and surfaces prioritised remediations for dev teams.",
+    href: "https://calendly.com/0xalphadevs/schedule-meeting",
+    ctaText: "Book a Discovery Call",
+    type: "ai-agents",
+  },
+  {
+    image: "/assets/ai-agents/on-chain-alpha-agent.png",
+    name: "On-chain Alpha Agent",
+    tags: ["AI Agents", "Research", "DeFi"],
+    description:
+      "Monitors whale wallet movements, governance proposals, and protocol TVL shifts across chains to surface actionable trading signals and daily on-chain research digests.",
+    href: "https://calendly.com/0xalphadevs/schedule-meeting",
+    ctaText: "Book a Discovery Call",
+    type: "ai-agents",
+  },
+];
+
 export const saasProjects: Project[] = [
   {
-    image: "/sample.png",
+    image: "/assets/saas/launchpad.png",
     name: "Launchpad",
     tags: ["SaaS", "Productivity"],
     description:
@@ -74,7 +107,7 @@ export const saasProjects: Project[] = [
     type: "saas",
   },
   {
-    image: "/sample.png",
+    image: "/assets/saas/billingflow.png",
     name: "BillingFlow",
     tags: ["SaaS", "Fintech"],
     description:
@@ -84,7 +117,7 @@ export const saasProjects: Project[] = [
     type: "saas",
   },
   {
-    image: "/sample.png",
+    image: "/assets/saas/formforge.png",
     name: "FormForge",
     tags: ["SaaS", "No-code"],
     description:
@@ -94,7 +127,7 @@ export const saasProjects: Project[] = [
     type: "saas",
   },
   {
-    image: "/sample.png",
+    image: "/assets/saas/inboxiq.png",
     name: "InboxIQ",
     tags: ["SaaS", "Email"],
     description:
@@ -104,7 +137,7 @@ export const saasProjects: Project[] = [
     type: "saas",
   },
   {
-    image: "/sample.png",
+    image: "/assets/saas/trackhive.png",
     name: "TrackHive",
     tags: ["SaaS", "Analytics"],
     description:
@@ -114,7 +147,7 @@ export const saasProjects: Project[] = [
     type: "saas",
   },
   {
-    image: "/sample.png",
+    image: "/assets/saas/shiftsync.png",
     name: "ShiftSync",
     tags: ["SaaS", "HR"],
     description:
@@ -127,7 +160,7 @@ export const saasProjects: Project[] = [
 
 export const web3Projects: Project[] = [
   {
-    image: "/sample.png",
+    image: "/assets/web3/chainvault.png",
     name: "ChainVault",
     tags: ["Web3", "DeFi"],
     description:
@@ -137,7 +170,7 @@ export const web3Projects: Project[] = [
     type: "web3",
   },
   {
-    image: "/sample.png",
+    image: "/assets/web3/mintmesh.png",
     name: "MintMesh",
     tags: ["Web3", "NFT"],
     description:
@@ -147,7 +180,7 @@ export const web3Projects: Project[] = [
     type: "web3",
   },
   {
-    image: "/sample.png",
+    image: "/assets/web3/votechain.png",
     name: "VoteChain",
     tags: ["Web3", "DAO"],
     description:
@@ -157,7 +190,7 @@ export const web3Projects: Project[] = [
     type: "web3",
   },
   {
-    image: "/sample.png",
+    image: "/assets/web3/bridgex.png",
     name: "BridgeX",
     tags: ["Web3", "Cross-chain"],
     description:
@@ -167,7 +200,7 @@ export const web3Projects: Project[] = [
     type: "web3",
   },
   {
-    image: "/sample.png",
+    image: "/assets/web3/stakestream.png",
     name: "StakeStream",
     tags: ["Web3", "Staking"],
     description:
@@ -177,7 +210,7 @@ export const web3Projects: Project[] = [
     type: "web3",
   },
   {
-    image: "/sample.png",
+    image: "/assets/web3/decentid.png",
     name: "DecentID",
     tags: ["Web3", "Identity"],
     description:
@@ -185,68 +218,5 @@ export const web3Projects: Project[] = [
     href: "#",
     ctaText: "Build Your Web3 Product",
     type: "web3",
-  },
-];
-
-export const aiAgentProjects: Project[] = [
-  {
-    image: "/sample.png",
-    name: "Nexus AI",
-    tags: ["AI Agents", "Automation"],
-    description:
-      "Built a multi-agent orchestration system that automates end-to-end customer support workflows, reducing response time by 80%.",
-    href: "#",
-    ctaText: "Build Your AI Agent",
-    type: "ai-agents",
-  },
-  {
-    image: "/sample.png",
-    name: "DataMind",
-    tags: ["AI Agents", "Data"],
-    description:
-      "Developed an autonomous data analyst agent that ingests raw datasets and surfaces actionable insights without human intervention.",
-    href: "#",
-    ctaText: "Build Your AI Agent",
-    type: "ai-agents",
-  },
-  {
-    image: "/sample.png",
-    name: "FlowBot",
-    tags: ["AI Agents", "SaaS"],
-    description:
-      "Designed and deployed a conversational AI agent integrated into a SaaS platform to handle onboarding, billing queries, and feature discovery.",
-    href: "#",
-    ctaText: "Build Your AI Agent",
-    type: "ai-agents",
-  },
-  {
-    image: "/sample.png",
-    name: "Sentinel",
-    tags: ["AI Agents", "Security"],
-    description:
-      "Created an AI-powered security monitoring agent that detects anomalies in real time and triggers automated incident response pipelines.",
-    href: "#",
-    ctaText: "Build Your AI Agent",
-    type: "ai-agents",
-  },
-  {
-    image: "/sample.png",
-    name: "LogicLoop",
-    tags: ["AI Agents", "Fintech"],
-    description:
-      "Engineered a financial reconciliation agent that autonomously processes transactions, flags discrepancies, and generates audit-ready reports.",
-    href: "#",
-    ctaText: "Build Your AI Agent",
-    type: "ai-agents",
-  },
-  {
-    image: "/sample.png",
-    name: "ScaleOps",
-    tags: ["AI Agents", "DevOps"],
-    description:
-      "Built a DevOps agent that monitors infrastructure, auto-scales resources based on load predictions, and notifies teams of critical events.",
-    href: "#",
-    ctaText: "Build Your AI Agent",
-    type: "ai-agents",
   },
 ];

@@ -62,7 +62,7 @@ export default function PricingSection() {
                       : "w-full font-figtree font-medium border-white/10 text-white/70 hover:text-white hover:bg-white/5"
                   }
                 >
-                  <a href="https://t.me/AlphaDevsOfficial" target="_blank" rel="noopener noreferrer">
+                  <a href="https://calendly.com/0xalphadevs/schedule-meeting" target="_blank" rel="noopener noreferrer">
                     {plan.cta}
                   </a>
                 </Button>

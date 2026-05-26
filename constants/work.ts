@@ -97,62 +97,32 @@ export const aiAgentProjects: Project[] = [
 
 export const saasProjects: Project[] = [
   {
-    image: "/assets/saas/launchpad.png",
-    name: "Launchpad",
-    tags: ["SaaS", "Productivity"],
+    image: "/assets/saas/documint.png",
+    name: "DocuMint",
+    tags: ["SaaS", "Productivity", "AI"],
     description:
-      "Built a multi-tenant project management SaaS with real-time collaboration, custom workflows, and deep analytics for distributed teams.",
-    href: "#",
+      "AI-powered document platform that generates contracts, proposals, and NDAs from smart templates , populate variables in seconds and send for e-signature.",
+    href: "https://calendly.com/0xalphadevs/schedule-meeting",
     ctaText: "Build Your SaaS",
     type: "saas",
   },
   {
-    image: "/assets/saas/billingflow.png",
-    name: "BillingFlow",
-    tags: ["SaaS", "Fintech"],
+    image: "/assets/saas/feedbackloop.png",
+    name: "FeedbackLoop",
+    tags: ["SaaS", "Analytics", "AI"],
     description:
-      "Developed a subscription billing platform with usage-based pricing, automated invoicing, and Stripe integration for B2B SaaS companies.",
-    href: "#",
+      "Aggregates customer feedback from email, Slack, and support tools, then uses AI to cluster, tag, and surface the top product issues to your team weekly.",
+    href: "https://calendly.com/0xalphadevs/schedule-meeting",
     ctaText: "Build Your SaaS",
     type: "saas",
   },
   {
-    image: "/assets/saas/formforge.png",
-    name: "FormForge",
-    tags: ["SaaS", "No-code"],
+    image: "/assets/saas/jira-summarizer.png",
+    name: "Jira Summarizer",
+    tags: ["SaaS", "Productivity", "AI"],
     description:
-      "Created a no-code form builder SaaS with conditional logic, webhook integrations, and branded form portals for non-technical teams.",
-    href: "#",
-    ctaText: "Build Your SaaS",
-    type: "saas",
-  },
-  {
-    image: "/assets/saas/inboxiq.png",
-    name: "InboxIQ",
-    tags: ["SaaS", "Email"],
-    description:
-      "Engineered a smart email management SaaS that auto-categorizes, prioritizes, and drafts responses using AI to cut inbox time in half.",
-    href: "#",
-    ctaText: "Build Your SaaS",
-    type: "saas",
-  },
-  {
-    image: "/assets/saas/trackhive.png",
-    name: "TrackHive",
-    tags: ["SaaS", "Analytics"],
-    description:
-      "Designed an event analytics SaaS that captures user behavior across web and mobile, with funnel visualizations and retention dashboards.",
-    href: "#",
-    ctaText: "Build Your SaaS",
-    type: "saas",
-  },
-  {
-    image: "/assets/saas/shiftsync.png",
-    name: "ShiftSync",
-    tags: ["SaaS", "HR"],
-    description:
-      "Built a workforce scheduling SaaS for shift-based businesses, featuring drag-and-drop planning, auto-conflict detection, and SMS notifications.",
-    href: "#",
+      "Built a Jira plugin that auto-summarises issue descriptions and generates PR summaries using Llama 2, cutting documentation overhead for engineering teams.",
+    href: "https://github.com/0xAlphaDevs/Atlassian-Forge-Jira-Summarizer",
     ctaText: "Build Your SaaS",
     type: "saas",
   },

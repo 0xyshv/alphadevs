@@ -9,6 +9,58 @@ export interface Project {
   ctaText?: string;
   type: ProjectType;
 }
+export const achievementProjects: Project[] = [
+  {
+    image: "/assets/achivements/bitcoin-agent.png",
+    name: "Near Bitcoin Agent",
+    tags: ["NEAR Protocol", "Bitcoin", "AI Agent"],
+    description:
+      "Built an AI agent enabling native Bitcoin L1 transactions through NEAR accounts using chain signatures and NEAR Intents, no bridges or wrapped tokens needed.",
+    href: "https://github.com/0xAlphaDevs/Near-Bitcoin-Agent",
+    ctaText: "NPR Cohort 1 & 2 🏆",
+    type: "achievements",
+  },
+  {
+    image: "/assets/achivements/multichain-disperse.png",
+    name: "Multichain Disperse",
+    tags: ["Chain Abstraction", "Multichain", "Web3"],
+    description:
+      "Built a chain abstraction app to disperse tokens across multiple chains and recipients in a single transaction — pay gas on any preferred chain.",
+    href: "https://github.com/0xAlphaDevs/Multichain-Disperse",
+    ctaText: "Chain Abstraction Hack Winner 🏆",
+    type: "achievements",
+  },
+  {
+    image: "/assets/achivements/photon.png",
+    name: "Photon",
+    tags: ["EdTech", "Theta Network", "Web3"],
+    description:
+      "Built a decentralized platform on Theta with NFT-based DRM-protected courses, decentralized video via Theta EdgeCloud, and payments in Photon Tokens.",
+    href: "https://github.com/0xAlphaDevs/Photon",
+    ctaText: "Theta Hack 🏆",
+    type: "achievements",
+  },
+  {
+    image: "/assets/achivements/starknet-txn-simulator.png",
+    name: "Starknet Txn Simulator",
+    tags: ["Starknet", "AI", "Dev Tools"],
+    description:
+      "Built an AI-enhanced transaction simulator on Starknet — auto-fetches ABIs, simulates txns, and generates on-chain AI summaries of transaction behaviour via Galadriel.",
+    href: "https://github.com/0xAlphaDevs/Starknet-Txn-Simulator",
+    ctaText: "Web3 AI Hack 🏆",
+    type: "achievements",
+  },
+  {
+    image: "/assets/achivements/game-of-pots.png",
+    name: "Game of Pots",
+    tags: ["DeFi", "Ethena", "No-Loss Lottery"],
+    description:
+      "Built a no-loss lottery platform on Ethena's sUSDe — users pool deposits that earn staking rewards, with winners picked via Conduit VRF and principal always withdrawable.",
+    href: "https://github.com/0xAlphaDevs/Game-of-Pots",
+    ctaText: "Ethena Hackathon 🏆",
+    type: "achievements",
+  },
+];
 
 export const saasProjects: Project[] = [
   {
@@ -133,69 +185,6 @@ export const web3Projects: Project[] = [
     href: "#",
     ctaText: "Build Your Web3 Product",
     type: "web3",
-  },
-];
-
-export const achievementProjects: Project[] = [
-  {
-    image: "/sample.png",
-    name: "50+ Projects Shipped",
-    tags: ["Milestone", "2024"],
-    description:
-      "Crossed 50 successfully delivered products across AI, Web3, and SaaS — from MVP to full-scale production.",
-    href: "",
-    ctaText: "ETH Hackathon Winner 🏆",
-    type: "achievements",
-  },
-  {
-    image: "/sample.png",
-    name: "80% Response Time Cut",
-    tags: ["Client Impact", "2024"],
-    description:
-      "AI automation solutions we built reduced average client response times by 80%, directly improving customer satisfaction scores.",
-    href: "#",
-    ctaText: "Start Your Project",
-    type: "achievements",
-  },
-  {
-    image: "/sample.png",
-    name: "$10M+ On-chain Volume",
-    tags: ["Scale", "2023"],
-    description:
-      "DeFi and Web3 protocols built by our team collectively processed over $10 million in on-chain transaction volume.",
-    href: "#",
-    ctaText: "Start Your Project",
-    type: "achievements",
-  },
-  {
-    image: "/sample.png",
-    name: "14-Day MVP Launches",
-    tags: ["Speed", "2024"],
-    description:
-      "Established a repeatable process to take clients from zero to a live, fully functional MVP in under two weeks.",
-    href: "#",
-    ctaText: "Start Your Project",
-    type: "achievements",
-  },
-  {
-    image: "/sample.png",
-    name: "100% Client Retention",
-    tags: ["Growth", "2023"],
-    description:
-      "Every client we've worked with has either extended their engagement or returned for a follow-on project — zero churn.",
-    href: "#",
-    ctaText: "Start Your Project",
-    type: "achievements",
-  },
-  {
-    image: "/sample.png",
-    name: "Top Web3 Dev Studio",
-    tags: ["Recognition", "2024"],
-    description:
-      "Recognised by three independent developer communities as a leading boutique Web3 and AI development studio.",
-    href: "#",
-    ctaText: "Start Your Project",
-    type: "achievements",
   },
 ];
 

@@ -102,6 +102,18 @@ export const partners: { name: string; logo?: string; description: string }[] =
         "GIZA — zero-knowledge machine learning infrastructure bringing verifiable AI on-chain.",
     },
     {
+      name: "Eleven Labs",
+      logo: "/assets/elevenlabs.svg",
+      description:
+        "Starknet — a permissionless ZK-rollup that scales Ethereum with high throughput and low transaction fees.",
+    },
+    {
+      name: "Claude",
+      logo: "/assets/claude.svg",
+      description:
+        "Starknet — a permissionless ZK-rollup that scales Ethereum with high throughput and low transaction fees.",
+    },
+    {
       name: "Stellar",
       logo: "/assets/stellar.svg",
       description:

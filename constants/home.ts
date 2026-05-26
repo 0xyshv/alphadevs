@@ -32,25 +32,25 @@ export const partners: { name: string; logo?: string; description: string }[] =
     },
     {
       name: "OpenClaw",
-      logo: "/assets/bitte.svg",
+      logo: "/assets/openclaw.svg",
       description:
         "Bitte — AI-powered wallet infrastructure enabling intelligent agents to interact with blockchain protocols.",
     },
     {
       name: "Near AI",
-      logo: "/assets/bitte.svg",
+      logo: "/assets/near-ai.svg",
       description:
         "Bitte — AI-powered wallet infrastructure enabling intelligent agents to interact with blockchain protocols.",
     },
     {
       name: "MCP",
-      logo: "/assets/bitte.svg",
+      logo: "/assets/mcp.svg",
       description:
         "Bitte — AI-powered wallet infrastructure enabling intelligent agents to interact with blockchain protocols.",
     },
     {
       name: "x402",
-      logo: "/assets/bitte.svg",
+      logo: "/assets/x402.svg",
       description:
         "Bitte — AI-powered wallet infrastructure enabling intelligent agents to interact with blockchain protocols.",
     },
